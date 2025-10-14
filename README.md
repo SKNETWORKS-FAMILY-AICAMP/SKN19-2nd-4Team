@@ -15,26 +15,26 @@
       <td align="center">
         <div>
           <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지1"/>
-          <a href="https://github.com/"><div align=center>이름</div></a>
+          <a href="https://github.com/"><div align=center>김성욱</div></a>
         </div>
       </td>
       <td align="center">
         <div>
           <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지2"/>
-          <a href="https://github.com/"><div align=center>이름</div></a>
+          <a href="https://github.com/"><div align=center>신지섭</div></a>
         </div>
       </td>
       <td align="center">
         <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지3"/>
-        <a href="https://github.com/"><div align=center>이름</div></a>
+        <a href="https://github.com/"><div align=center>오하원</div></a>
       </td>
       <td align="center">
         <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지4"/>
-        <a href="https://github.com/"><div align=center>이름</div></a>
+        <a href="https://github.com/"><div align=center>이상혁</div></a>
       </td>
       <td align="center">
         <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지5"/>
-        <a href="https://github.com/Hawon-Oh"><div align=center>오하원</div></a>
+        <a href="https://github.com/Hawon-Oh"><div align=center>정종현</div></a>
       </td>
     </tr>
   </tbody>
@@ -53,14 +53,17 @@
 ### 기술 스택
 <div align=left><h3>🕹️ ML</div>
 <div align=left>
-  <img src="https://img.shields.io/badge/Pytorch-FF6F00?style=for-the-badge&logo=Pytorch&logoColor=white">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   <img src="https://img.shields.io/badge/Pandas-FF4FFF?style=for-the-badge&logo=Pandas&logoColor=white">
   <img src="https://img.shields.io/badge/Numpy-3700AB?style=for-the-badge&logo=Numpy&logoColor=white">
+  <img src="ttps://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=Scikit-learn&logoColor=white">
+  <img src="https://img.shields.io/badge/Pytorch-FF6F00?style=for-the-badge&logo=Pytorch&logoColor=white">
 </div>
 
 <div align=left><h3>🖼️ 시각화</div>
 <div align=left>
+  <img src="https://img.shields.io/badge/Matplotlib-0078D4?style=for-the-badge&logo=Matplotlib&logoColor=white">
+  <img src="https://img.shields.io/badge/Seaborn-2B91BD?style=for-the-badge&logo=Seaborn&logoColor=white">
   <img src="https://img.shields.io/badge/Streamlit-232323?style=for-the-badge&logo=Streamlit&logoColor=white">
 </div>
 
@@ -201,15 +204,15 @@ import pandas as pd
 
 # 8. **결론**
 
-dawdfsrdf
+
 
 
 # 10. 회고
-- **이름:** 회고
-- **이름:** 회고
-- **이름:** 회고
-- **이름:** 회고
-- **오하원:** 좋았다.
+- **김성욱:** 회고
+- **신지섭:** 회고
+- **오하원:** 회고
+- **이상혁:** 회고
+- **정종현:** 회고
 
 
 

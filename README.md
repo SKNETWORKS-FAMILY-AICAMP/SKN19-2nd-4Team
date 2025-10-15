@@ -43,13 +43,14 @@
 1. 프로젝트 개요
 2. WBS
 3. 기술스택
-4. EDA 및 클러스터링
-5. 가설과 입증
-6. 프로젝트 로드맵
-7. 모델별 결과
-8. 결론 및 향후 개선 방안
-9. 트러블 슈팅
-10. 회고
+4. 프로젝트 구조
+5. EDA 및 클러스터링
+6. 가설과 입증
+7. 프로젝트 로드맵
+8. 모델별 결과
+9. 결론 및 향후 개선 방안
+10. 트러블 슈팅
+11. 회고
 
 
 ###
@@ -113,6 +114,23 @@
   <img src="https://img.shields.io/badge/Seaborn-2B91BD?style=for-the-badge&logo=Seaborn&logoColor=white">
   <img src="https://img.shields.io/badge/Streamlit-232323?style=for-the-badge&logo=Streamlit&logoColor=white">
 </div>
+###
+# 프로젝트 구조
+📁 project-root/
+└── 📁 models/
+    ├── 📁 1st_model/
+    │   ├── 📁 data_preprocessing/
+    │   │   ├── 📁 raw_data/
+    │   │   └── 📁 processed_data/
+    │   └── 📁 training/
+    │       └── 📁 training_data/
+    └── 📁 final_model/
+        ├── 📁 data_preprocessing/
+        │   ├── 📁 raw_data/
+        │   └── 📁 processed_data/
+        └── 📁 training/
+            └── 📁 training_data/
+└── 📁 notebooks/
 
 ###
 # EDA 및 클러스터링

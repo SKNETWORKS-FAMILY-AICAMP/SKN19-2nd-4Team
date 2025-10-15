@@ -41,9 +41,15 @@
 </table>
 
 ## 목차
-1. [프로젝트 개요](#프로젝트-개요)
-2. [WBS](#wbs)
-3. [가설과 입증](#가설과-입증)
+1. [프로젝트 개요]
+2. [WBS]
+3. [EDA 및 클러스터링]
+4. [가설과 입증]
+5. [프로젝트 로드맵]
+6. [모델결 결과]
+7. [결론]
+8. [트러블 슈팅]
+9. [회고]
 
 
 ###
@@ -159,7 +165,7 @@ import pandas as pd
   <p style="margin: 10px 0 0 0;">
     <strong>- 데이터 수집:</strong> 플레이어의 스탯과 생존시간을 추출<br>
     <strong>- 데이터 분석:</strong> 스탯과 상관관계 분석시에 hitmap상에서 연관도가 낮게 관측되었다.<br>
-    <strong>- 결과 해석:</strong> 스탯은 분명 중요한 영향을 미칠 것으로 예상되나 추출한 데이터에 노이즈가 많고 플레이어의 성향을 표현하기에는 특징이 부족한 것으로 보인다.<br>
+    <strong>- 결과 해석:</strong> 스탯은 분명 중요한 영향을 미칠 것으로 예상되나 추출한 데이터에 노이즈가 많고 플레이어의 성향을 표현하기에는 특징이 부족한 것으로 보임<br>
     <strong>- 결과:</strong> <i>현재 가지고 있는 스탯 정보를 통해 완벽하게 플레이 성향을 분석하기에는 어려움이 존재</i> 
   </p>
 </div>
@@ -170,7 +176,7 @@ import pandas as pd
   <p style="margin: 10px 0 0 0;">
     <strong>- 데이터 수집:</strong> 조기이탈 (3분)내에 죽은 케이스를 지도상에 데이터 포인트로 지정후 클러스터링<br>
     <strong>- 데이터 분석:</strong> 대부분 클러스터링 된 데이터 포인트들이 실제 지도에 표시된 대도시 주변에 분포<br>
-    <strong>- 결과 해석:</strong> 랜딩 클러스터가 사망률에 영향이 크게 나타나는 것으로 보인다.<br>
+    <strong>- 결과 해석:</strong> 랜딩 클러스터가 사망률에 영향이 크게 나타나는 것으로 보임<br>
     <strong>- 결과:</strong> <i>예측 가능</i> 
   </p>
 </div>
@@ -181,7 +187,7 @@ import pandas as pd
   <p style="margin: 5px 0 0 0;">
     <strong>- 데이터 수집:</strong> 배틀그라운드 데이터 셋에 킬 로그<br>
     <strong>- 데이터 분석:</strong> 150초 안에 킬을하여 위치가 특정된 사람이 그 이후에 죽은 경우를 찾아서 사용<br>
-    <strong>- 결과 해석:</strong> 대부분의 경우 두 위치가 너무 멀지 않고 특수하게 행동하는 몇 가지 케이스를 제외하면 연관성이 있다.<br>
+    <strong>- 결과 해석:</strong> 대부분의 경우 두 위치가 너무 멀지 않고 특수하게 행동하는 몇 가지 케이스를 제외하면 연관성이 있음<br>
     <strong>- 결과:</strong> <i>예측 가능</i> 
   </p>
 </div>
@@ -249,8 +255,8 @@ import pandas as pd
   </tr>
   <tr>
     <th scope="row" style="text-align:left;">XGBoost</th>
-    <td>0.67</td><td>0.67</td><td>0.67</td><td>0.67</td>
-    <td>파라미터명: 9,<br> 파라미터명: 9</td>
+    <td>0.67</td><td>0.61</td><td>0.6</td><td>0.6</td>
+    <td>n_estimators: 759,<br> max_depth: 10,<br> learning_rate: 0.012</td>
   </tr>
   <tr>
     <th scope="row" style="text-align:left;">LightGBM</th>
@@ -268,7 +274,7 @@ import pandas as pd
 </table>
 
 <div>
-<b>클래스 불균형으로 인한 조화 평균을 고려하여 F1-Score를 주요 평가 지표로 사용 0.67으로 가장 높은 성능을 보이고 1(조기사망)에 대해서 비교적 균등한 값을 보여준  XGBoost 모델을 사용하기로 결정</b>
+<b>클래스 불균형으로 인한 조화 평균을 고려하여 F1-Score를 주요 평가 지표로 사용 0.6으로 가장 높은 성능을 보이고 1(조기사망)에 대해서 비교적 균등한 값을 보여준  XGBoost 모델을 사용하기로 결정</b>
 </div>
 
 ###

@@ -151,7 +151,26 @@
 | 영어 컬럼명                | 한국어 번역     | 의미 설명                                 |
 | --------------------- | ---------- | ------------------------------------- |
 | **killed_by**         | 처치 수단      | 킬이 발생한 원인 (무기 이름, 폭발, 낙사 등)           |
-| **killer_화 2">
+| **killer_name**       | 킬한 플레이어 이름 | 상대를 죽인 사람의 닉네임                        |
+| **killer_placement**  | 킬러의 순위     | 킬을 한 플레이어의 최종 경기 순위 (1위=우승)           |
+| **killer_position_x** | 킬러 위치 X좌표  | 킬 발생 시 킬러의 지도상 X좌표                    |
+| **killer_position_y** | 킬러 위치 Y좌표  | 킬 발생 시 킬러의 지도상 Y좌표                    |
+| **map**               | 맵 이름       | 경기가 진행된 지도 이름 (예: Erangel, Miramar 등) |
+| **match_id**          | 경기 ID      | 해당 킬이 발생한 경기 식별자                      |
+| **time**              | 발생 시각      | 킬이 일어난 시점 (단위: 초)                     |
+| **victim_name**       | 희생자 이름     | 사망한 플레이어의 닉네임                         |
+| **victim_placement**  | 희생자 순위     | 사망한 플레이어의 최종 경기 순위                    |
+| **victim_position_x** | 희생자 위치 X좌표 | 사망 시 희생자의 지도상 X좌표                     |
+| **victim_position_y** | 희생자 위치 Y좌표 | 사망 시 희생자의 지도상 Y좌표                     |
+
+</div>
+해당 데이터에서도 0에서 800000이상인 행을 제외후 <i>2분 30초 이전 사망좌표</i> 데이터프레임과 <i>2분 30초 이전 킬을 하고 이후 사망</i> 데이터프레임을 확보
+
+###
+<b>클러스터링</b>
+<p align="center">
+    <img src="./notebooks/clustering_op1.png" width="500" alt="클러스터링 최적화 1">
+    <img src="./notebooks/clustering_op2.png" width="500" alt="클러스터링 최적화 2">
 </p>
 
 ![클러스터링 결과](./notebooks/clustering1.png)

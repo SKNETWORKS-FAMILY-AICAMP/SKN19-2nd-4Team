@@ -126,13 +126,14 @@
     │   │   └── 📁 processed_data/
     │   └── 📁 training/
     │       └── 📁 training_data/
-    └── 📁 final_model/
-        ├── 📁 data_preprocessing/
-        │   ├── 📁 raw_data/
-        │   └── 📁 processed_data/
-        └── 📁 training/
-            └── 📁 training_data/
-└── 📁 notebooks/
+    ├── 📁 final_model/
+    |   ├── 📁 data_preprocessing/
+    |   │   ├── 📁 raw_data/
+    |   │   └── 📁 processed_data/
+    |   └── 📁 training/
+    │       └── 📁 training_data/
+    └── 📁 streamlit/
+    └── 📁 notebooks/
 ```
 ###
 # EDA 및 클러스터링

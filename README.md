@@ -92,13 +92,14 @@
 <div align=left>
   <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
   <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white">
+  <img src="https://img.shields.io/badge/GCP-FF40FF?style=for-the-badge&logo=google-cloud&logoColor=white">
 
 </div>
 
 <div align=left><h3>ML</div>
 <div align=left>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
-  <img src="https://img.shields.io/badge/Pandas-FF4FFF?style=for-the-badge&logo=Pandas&logoColor=white">
+  <img src="https://img.shields.io/badge/Pandas-FF4FAB?style=for-the-badge&logo=Pandas&logoColor=white">
   <img src="https://img.shields.io/badge/Numpy-3700AB?style=for-the-badge&logo=Numpy&logoColor=white">
   <img src="https://img.shields.io/badge/Scikitlearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
   <img src="https://img.shields.io/badge/Pytorch-FF6F00?style=for-the-badge&logo=Pytorch&logoColor=white">

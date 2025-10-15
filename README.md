@@ -114,8 +114,10 @@
   <img src="https://img.shields.io/badge/Seaborn-2B91BD?style=for-the-badge&logo=Seaborn&logoColor=white">
   <img src="https://img.shields.io/badge/Streamlit-232323?style=for-the-badge&logo=Streamlit&logoColor=white">
 </div>
+    
 ###
 # 프로젝트 구조
+```
 📁 project-root/
 └── 📁 models/
     ├── 📁 1st_model/
@@ -131,7 +133,7 @@
         └── 📁 training/
             └── 📁 training_data/
 └── 📁 notebooks/
-
+```
 ###
 # EDA 및 클러스터링
 <b>경기 결과 데이터</b>

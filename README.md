@@ -250,8 +250,8 @@ import pandas as pd
   </tr>
   <tr>
     <th scope="row" style="text-align:left;">XGBoost</th>
-    <td>0.67</td><td>0.67</td><td>0.67</td><td>0.67</td>
-    <td>파라미터명: 9,<br> 파라미터명: 9</td>
+    <td>0.67</td><td>0.61</td><td>0.6</td><td>0.6</td>
+    <td>n_estimators: 759,<br> max_depth: 10,<br> learning_rate: 0.012</td>
   </tr>
   <tr>
     <th scope="row" style="text-align:left;">LightGBM</th>

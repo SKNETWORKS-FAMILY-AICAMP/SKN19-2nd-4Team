@@ -267,7 +267,7 @@
   </tr>
   <tr>
     <th scope="row" style="text-align:left;">LightGBM</th>
-    <td>0.63</td><td>0.64</td><td>0.81</td><td>0.52</td>
+    <td>0.63</td><td>0.64</td><td>0.51</td><td>0.52</td>
     <td>metric: auc,
     <br> learning_rate: 0.01,
     <br> num_leaves: 50,

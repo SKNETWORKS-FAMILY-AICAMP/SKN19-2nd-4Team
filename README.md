@@ -218,7 +218,7 @@ import pandas as pd
   </tr>
   <tr>
     <th scope="row" style="text-align:left;">XGBoost</th>
-    <td>0.99999</td><td>0.99999</td><td>0.99999</td><td>3.2790</td>
+    <td>0.9202</td><td>0.9154</td><td>0.9202</td><td>0.9168</td>
     <td>파라미터명: 9,<br> 파라미터명: 9</td>
   </tr>
   <tr>

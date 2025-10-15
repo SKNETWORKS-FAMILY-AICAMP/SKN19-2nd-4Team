@@ -14,26 +14,26 @@
     <tr>
       <td align="center">
         <div>
-          <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/2d123559-303f-4735-a5d7-24d40e4ac132" alt="프로필 이미지1"/>
+          <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/259c13f9-4ef9-43fe-ab07-7351141338c9" alt="프로필 이미지1"/>
           <a href="https://github.com/souluk319"><div align=center>김성욱</div></a>
         </div>
       </td>
       <td align="center">
         <div>
-          <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/dc1d840e-a6eb-43ed-aff2-37345dfa00a2" alt="프로필 이미지2"/>
+          <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/900f2d21-a727-4b4c-9f09-dc5f07035264" alt="프로필 이미지2"/>
           <a href="https://github.com/Melonmacaron"><div align=center>신지섭</div></a>
         </div>
       </td>
       <td align="center">
-        <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/1b226b86-bf26-48d4-ab96-f78bf4c607b2" alt="프로필 이미지3"/>
+        <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/14e7e88f-8bd3-4e66-a2d4-89b4fd8e8e9a" alt="프로필 이미지3"/>
         <a href="https://github.com/"><div align=center>오하원</div></a>
       </td>
       <td align="center">
-        <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/ed544cf5-b9f7-48b8-9dda-4be7aee98763" alt="프로필 이미지4"/>
+        <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/8a9411e8-c5eb-41f6-be57-382b50f7b1a3" alt="프로필 이미지4"/>
         <a href="https://github.com/sangpiri"><div align=center>이상혁</div></a>
       </td>
       <td align="center">
-        <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/103cc741-e49a-42bf-95b6-e0df32a9afaf" alt="프로필 이미지5"/>
+        <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/f7d16596-2008-4e16-ad5a-50fafec4ca21" alt="프로필 이미지5"/>
         <a href="https://github.com/myem21"><div align=center>정종현</div></a>
       </td>
     </tr>

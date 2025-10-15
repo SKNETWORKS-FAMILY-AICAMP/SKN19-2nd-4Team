@@ -228,11 +228,6 @@
     <td>0.9202</td><td>0.9154</td><td>0.9202</td><td>0.9168</td>
     <td>n_estimators: 105,<br> max_depth: 8,<br> learning_rate: 0.07</td>
   </tr>
-  <tr>
-    <th scope="row" style="text-align:left;">CatBoost</th>
-    <td>5465432</td><td>213456</td><td>3.2790</td><td>3.2790</td>
-    <td>파라미터명: 값,<br> 파라미터명: 값</td>
-  </tr>
     <tr>
     <th scope="row" style="text-align:left;">MLP</th>
     <td style="border-bottom: 1px solid gray; padding: 5px;">0.90</td>

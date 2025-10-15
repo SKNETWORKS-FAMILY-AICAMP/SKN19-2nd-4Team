@@ -6,8 +6,6 @@
 
 
 
-
-
 # 훈수없음 팀 소개
 <table align=center>
   <tbody>
@@ -57,22 +55,35 @@
 
 # 프로젝트 개요
 
-### 기술 스택
-<div align=left><h3>🕹️ ML</div>
+
+<div align=left><h3>Tools</div>
+<div align=left>
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white">
+  <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white">
+
+</div>
+
+<div align=left><h3>ML</div>
 <div align=left>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white">
   <img src="https://img.shields.io/badge/Pandas-FF4FFF?style=for-the-badge&logo=Pandas&logoColor=white">
   <img src="https://img.shields.io/badge/Numpy-3700AB?style=for-the-badge&logo=Numpy&logoColor=white">
-  <img src="ttps://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=Scikit-learn&logoColor=white">
+  <img src="https://img.shields.io/badge/Scikitlearn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
   <img src="https://img.shields.io/badge/Pytorch-FF6F00?style=for-the-badge&logo=Pytorch&logoColor=white">
+  <img src="https://img.shields.io/badge/Polars-376F90?style=for-the-badge&logo=Polars&logoColor=white">
 </div>
 
-<div align=left><h3>🖼️ 시각화</div>
+<div align=left><h3>시각화</div>
 <div align=left>
   <img src="https://img.shields.io/badge/Matplotlib-0078D4?style=for-the-badge&logo=Matplotlib&logoColor=white">
   <img src="https://img.shields.io/badge/Seaborn-2B91BD?style=for-the-badge&logo=Seaborn&logoColor=white">
   <img src="https://img.shields.io/badge/Streamlit-232323?style=for-the-badge&logo=Streamlit&logoColor=white">
 </div>
+
+---
+
+### 데이터 출처
+[Pubg Match Deaths Dataset - Kaggle](https://www.kaggle.com/datasets/skihikingkevin/pubg-match-deaths)
 
 ---
 
@@ -256,8 +267,14 @@
   </tr>
   <tr>
     <th scope="row" style="text-align:left;">LightGBM</th>
-    <td>5465432</td><td>213456</td><td>213456</td><td>213456</td>
-    <td>파라미터명: 값,<br> 파라미터명: 값</td>
+    <td>0.63</td><td>0.64</td><td>0.81</td><td>0.52</td>
+    <td>metric: auc,
+    <br> learning_rate: 0.01,
+    <br> num_leaves: 50,
+    <br> max_depth: 5,
+    <br> feature_fraction: 0.7,
+    <br> bagging_fraction: 0.7,
+    <br> bagging_freq: 5</td>
   </tr>
     <tr>
     <th scope="row" style="text-align:left;">MLP</th>
@@ -296,9 +313,9 @@
 # 회고
 - **김성욱:** 회고
 - **신지섭:** 이번 프로젝트에서 전체적인 흐름 설계와 플레이어 데이터 추출, 클러스터링, 1차 예측 모델 제작을 주로 맡았습니다. 대용량 데이터를 다룰때 어려웠던 점이 GPU가 아니라 RAM용량에 부족이 더 크게 느껴졌었고 GCP와 같은 클라우드 컴퓨팅 서비스를 통해 이를 해결하였습니다. 최종모델의 아쉬움에서 앞으로의 프로젝트에서는  EDA과정이 좀 더 치밀하게 기획되어야 한다는 점을 깨달았습니다.
-- **오하원:** 회고
+- **오하원:** 배틀그라운드라는 게임 자체에 대한 이해도가 있어야만 데이터포인트가 왜 이런지, 이 지점의 클러스터는 왜 이런지 등 제대로 된 해석이 가능했습니다. 아는 게임조차 실제 데이터를 다루다보며 애먹을 점이 있었습니다. 만약 잘 모르는 분야의 데이터를 다룬다면 통계적 오류를 줄이고자 실무자와의 대화가 중요하겠다 느꼈습니다.
 - **이상혁:** 대용량 데이터를 모델링하는 과정에서 시간이 많이 걸려 애를 먹었다. raw data에 착륙 위치에 해당하는 특징 컬럼이 없어, 그것을 1차 모델링을 통해 도출한 후 그렇게 추정된 착륙 위치를 통해 조기 탈락 여부를 예측하는 2차 모델링을 진행하는 2번의 연결된 논리 구조가 복잡해 구조도를 파악하려고 노력했다. 그리고, 깃을 통째로 날려버리는 대형 실수를 저질러서 팀원에게 매우 미안했다. 다행히 클론해둔 자료가 있어 복구할 수 있었지만, 바쁜 팀원에게 추가적으로 부담을 줘서 죄송할 따름이다. 깃 사용이 너무 어려운데 사용 실력이 늘었으면 좋겠다.
-- **정종현:** 잘 모르지만 유명한 게임(베틀그라운드)의 새로운 시각(신쟝르 게임과 하는 방법)과 Data의 의미를 알기 어려웠기에 
+- **정종현:** 잘 모르지만 유명한 게임(베틀그라운드)의 새로운 시각(신 장르 게임과 하는 방법)과 Data의 의미를 알기 어려웠기에 
 모델의 적용과 검증 방향을 전혀 못잡아 팀에 전혀 도움이 못되었습니다. 
 이후 Data의 의미를 알수 있도록 사용자의 입장에서 좀더 Data의 분석을 하도록 하겠습니다. 
 

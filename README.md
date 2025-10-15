@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=FF0000&height=240&text=SKN19-2nd-4Team&animation=&fontColor=ffffff&fontSize=90" />
+    <img width="500" height="500" alt="Image" src="https://github.com/user-attachments/assets/0a1453c7-16b9-4d17-8e7b-ed7fe0eab7f9" />
 </div>
 
 

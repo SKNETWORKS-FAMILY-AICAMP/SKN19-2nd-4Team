@@ -14,14 +14,14 @@
     <tr>
       <td align="center">
         <div>
-          <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지1"/>
-          <a href="https://github.com/"><div align=center>김성욱</div></a>
+          <img src="https://avatars.githubusercontent.com/u/224002971?v=4"width="150px;" alt="프로필 이미지1"/>
+          <a href="https://github.com/souluk319"><div align=center>김성욱</div></a>
         </div>
       </td>
       <td align="center">
         <div>
-          <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지2"/>
-          <a href="https://github.com/"><div align=center>신지섭</div></a>
+          <img src="https://avatars.githubusercontent.com/u/135974420?v=4"width="150px;" alt="프로필 이미지2"/>
+          <a href="https://github.com/Melonmacaron"><div align=center>신지섭</div></a>
         </div>
       </td>
       <td align="center">
@@ -29,12 +29,12 @@
         <a href="https://github.com/"><div align=center>오하원</div></a>
       </td>
       <td align="center">
-        <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지4"/>
-        <a href="https://github.com/"><div align=center>이상혁</div></a>
+        <img src="https://avatars.githubusercontent.com/u/179684278?v=4"width="150px;" alt="프로필 이미지4"/>
+        <a href="https://github.com/sangpiri"><div align=center>이상혁</div></a>
       </td>
       <td align="center">
-        <img src="https://avatars.githubusercontent.com/u/181833818?v=4"width="150px;" alt="프로필 이미지5"/>
-        <a href="https://github.com/Hawon-Oh"><div align=center>정종현</div></a>
+        <img src="https://avatars.githubusercontent.com/u/227073315?v=4"width="150px;" alt="프로필 이미지5"/>
+        <a href="https://github.com/myem21"><div align=center>정종현</div></a>
       </td>
     </tr>
   </tbody>

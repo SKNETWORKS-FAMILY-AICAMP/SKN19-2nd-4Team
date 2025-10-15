@@ -24,7 +24,7 @@
       </td>
       <td align="center">
         <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/14e7e88f-8bd3-4e66-a2d4-89b4fd8e8e9a" alt="프로필 이미지3"/>
-        <a href="https://github.com/"><div align=center>오하원</div></a>
+        <a href="https://github.com/Hawon-Oh"><div align=center>오하원</div></a>
       </td>
       <td align="center">
         <img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/8a9411e8-c5eb-41f6-be57-382b50f7b1a3" alt="프로필 이미지4"/>

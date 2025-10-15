@@ -234,7 +234,7 @@
     <td>파라미터명: 값,<br> 파라미터명: 값</td>
   </tr>
     <tr>
-    <th scope="row" style="text-align:left;">DMLP</th>
+    <th scope="row" style="text-align:left;">MLP</th>
     <td style="border-bottom: 1px solid gray; padding: 5px;">0.90</td>
     <td style="border-bottom: 1px solid gray; padding: 5px;">0.91</td>
     <td style="border-bottom: 1px solid gray; padding: 5px;">0.90</td>
@@ -265,7 +265,7 @@
     <td>파라미터명: 값,<br> 파라미터명: 값</td>
   </tr>
     <tr>
-    <th scope="row" style="text-align:left;">DMLP</th>
+    <th scope="row" style="text-align:left;">MLP</th>
     <td style="border-bottom: 1px solid gray; padding: 5px;">0.60</td>
     <td style="border-bottom: 1px solid gray; padding: 5px;"></td>
     <td style="border-bottom: 1px solid gray; padding: 5px;"></td>
